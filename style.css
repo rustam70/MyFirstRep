@@ -1,3 +1,41 @@
 * {
     margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 300px;
+}
+.image img {
+    width: 300px;
+    height: 400px;
+}
+.menu {
+    display: flex;
+    opacity: 0;
+}
+.menu_img {
+    width: 100px;
+    height: 50px;
+    background-color: slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_img img {
+    width: 30px;
+    height: 30px;
+}
+.menu_img:hover {
+    background-color: rgb(78, 92, 105);
+}
+.footer {
+    border-bottom: 2px solid goldenrod;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+.footer h4 {
+    color: goldenrod;
+}
+.container:hover > .menu{
+    opacity: 0.7;
 }
